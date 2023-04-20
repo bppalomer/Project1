@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/c16dc903ef.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Titan+One&display=swap" rel="stylesheet">
+<!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Products Page</title>
+</head>
+<body class="bg-warning">
+    <!-- Navigation Bar -->
+    <section class="colored_section bg-warning" id="title">
+      <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">LightStick.ph</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link pe-5" href="index.html" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
+              <a class="nav-link pe-5" href="products.html" data-toggle="collapse" data-target=".navbar-collapse.show">Products</a>
+              <a class="nav-link pe-5" href="aboutus.html" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
+              <a class="nav-link pe-5" href="loginorsignup.html" data-toggle="collapse" data-target=".navbar-collapse.show">Log-In/Sign-Up</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      </section>
+
+    <!-- Products -->
+  <section class = "products bg-light">
+    <div class="row">
+      <div class="container-fluid bg-light col-lg-3" id="filter_container">
+        <div>
+          <h3 class="filter_label p-2 mt-2">Price Range</h3>
+        </div>
+        
+        <div class="list-group">
+          <label class="list-group-item pl-4">
+            <input class="form-check-input me-1" type="checkbox" value="">
+            All
+          </label>
+          <label class="list-group-item pl-4">
+            <input class="form-check-input me-1" type="checkbox" value="">
+            Php 5,000-Php 4,000
+          </label>
+          <label class="list-group-item pl-4">
+            <input class="form-check-input me-1" type="checkbox" value="">
+            Php 4,000-Php 3,000
+          </label>
+          <label class="list-group-item pl-4">
+            <input class="form-check-input me-1" type="checkbox" value="">
+            Php 3,000-Php 2,000
+          </label>
+          <label class="list-group-item pl-4">
+            <input class="form-check-input me-1" type="checkbox" value="">
+            Php 2,000-Php 1,000
+          </label>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-primary btn-lg m-4" id="filter">Filter</button>
+        </div>
+        
+    </div>
+    <div class="container bg-light col-lg-9" id="product_container">
+        <h3 class="product_label p-2 mt-2">Products</h3>
+        <section class="container-fluid items_bong">
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/blackpink-official-light-stick-bl-ping-bong.jpg" alt="Hammer Bong">
+            <div class="card-body">
+              <h5 class="card-title">Blink Bong</h5>
+              <p class="card-text">Php 1,480</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/twice-official-light-stick-candy-bong-z.jpg" alt="Candy bong">
+            <div class="card-body">
+              <h5 class="card-title">Candy Bong</h5>
+              <p class="card-text">Php 1,420</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/bts-official-light-stick-army-bomb-version-3.jpg" alt="Army Bomb">
+            <div class="card-body">
+              <h5 class="card-title">Army Bomb</h5>
+              <p class="card-text">Php 1,450</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/ace-official-light-stick.jpg" alt="Choistick">
+            <div class="card-body">
+              <h5 class="card-title">Choistick</h5>
+              <p class="card-text">Php 1,550</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/ateez-official-light-stick-lightiny.jpg" alt="Lightiny">
+            <div class="card-body">
+              <h5 class="card-title">Lightiny</h5>
+              <p class="card-text">Php 1,550</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/got7-official-light-stick-2018-version-2.jpg" alt="Ahgabong">
+            <div class="card-body">
+              <h5 class="card-title">Ahgabong</h5>
+              <p class="card-text">Php 1,650</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/itzy-official-light-stick-light-ring.jpg" alt="The IT">
+            <div class="card-body">
+              <h5 class="card-title">The IT</h5>
+              <p class="card-text">Php 1,460</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/cravity-official-light-stick.jpg" alt="Remembong">
+            <div class="card-body">
+              <h5 class="card-title">Remebong</h5>
+              <p class="card-text">Php 2,300</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/enhypen-official-light-stick.jpg" alt="Bong">
+            <div class="card-body">
+              <h5 class="card-title">Bong</h5>
+              <p class="card-text">Php 2,100</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="card m-2" style="width: 40%;">
+            <img class="card-img-top" src="images/red-velvet-official-light-stick.jpg" alt="Mandu Bong">
+            <div class="card-body">
+              <h5 class="card-title">Mandu </h5>
+              <p class="card-text">Php 1,800</p>
+              <a href="order.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </section>
+        
+    </div>
+    <div>
+
+    </div> 
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>

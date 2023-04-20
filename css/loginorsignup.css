@@ -1,0 +1,35 @@
+
+
+.navbar-brand {
+    font-family: 'DynaPuff', cursive;
+    font-weight: 1000;
+    font-size: xx-large !important;
+    color: darkblue !important;
+}
+
+.nav-link {
+    font-family: 'DynaPuff', cursive !important;
+    color: darkblue !important;
+}
+
+.nav-link:hover {
+    font-family: 'DynaPuff', cursive !important;
+    color: rgb(128, 128, 225) !important;
+    font-size: large;
+}
+
+.navbar-brand:hover {
+    font-family: 'DynaPuff', cursive;
+    font-weight: 1000;
+    font-size: xx-large !important;
+    color: rgb(128, 128, 225) !important;
+}
+
+body {
+    font-family: 'DynaPuff', cursive !important;
+    color: darkblue !important;
+}
+
+.content {
+    color: darkblue !important;
+}

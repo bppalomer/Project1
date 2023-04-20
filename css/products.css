@@ -1,0 +1,92 @@
+/* Products Page */
+/* ====================================================================== */
+/*Navigation Bar*/
+
+.navbar-brand {
+    font-family: 'DynaPuff', cursive;
+    font-weight: 1000;
+    font-size: xx-large !important;
+    color: darkblue !important;
+}
+
+.nav-link {
+    font-family: 'DynaPuff', cursive !important;
+    color: darkblue !important;
+}
+
+.nav-link:hover {
+    font-family: 'DynaPuff', cursive !important;
+    color: rgb(128, 128, 225) !important;
+    font-size: large;
+}
+
+.navbar-brand:hover {
+    font-family: 'DynaPuff', cursive;
+    font-weight: 1000;
+    font-size: xx-large !important;
+    color: rgb(128, 128, 225) !important;
+}
+
+/* Product Area */
+
+.filter_label {
+    font-family: 'DynaPuff', cursive;
+    font-weight: 1000;
+    font-size: xx-large !important;
+    color: black;
+    margin-left: 3%;
+
+}
+.product_label {
+    font-family: 'DynaPuff', cursive;
+    font-weight: 1000;
+    font-size: xx-large !important;
+    color: black;
+    margin-left: 3%;
+
+}
+
+#product_container {
+    padding: 0%;
+}
+
+#filter_container {
+    padding:0%;
+}
+
+.list-group {
+ margin: 0% 7%;
+
+}
+
+.list-group-item {
+    border: 0;
+}
+
+#filter {
+    width: 90%;
+}
+
+.items_bong {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    transition: all 0.4s;
+}
+
+
+
+.card:hover {
+        
+        transform: scale(1.03); 
+        
+}
+
+
+
+

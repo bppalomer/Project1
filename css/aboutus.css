@@ -1,0 +1,43 @@
+    body {
+        color: darkblue !important;
+        font-family: 'DynaPuff', cursive !important;
+    }
+    
+    /* Navigation Bar */
+
+    .navbar-brand {
+        font-weight: 1000;
+        font-size: xx-large !important;
+        font-family: 'DynaPuff', cursive !important;
+        color: darkblue !important;
+    }
+
+    .nav-link {
+        font-family: 'DynaPuff', cursive !important;
+        color: darkblue !important;
+    }
+
+    .nav-link:hover {
+        font-family: 'DynaPuff', cursive !important;
+        color: rgb(128, 128, 225) !important;
+        font-size: large;
+    }
+
+    .navbar-brand:hover {
+        font-family: 'DynaPuff', cursive;
+        font-weight: 1000;
+        font-size: xx-large !important;
+        color: rgb(128, 128, 225) !important;
+    }
+    /* About Us Section */
+
+
+
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+
+    i {
+        margin: 10px 20px;
+    }
