@@ -12,9 +12,14 @@
         color: darkblue !important;
     }
 
-    .nav-link {
+    .highlight_text {
         font-family: 'DynaPuff', cursive !important;
         color: darkblue !important;
+    }
+    
+    .highlight_text1 {
+        font-family: 'DynaPuff', cursive !important;
+        color: rgb(128, 128, 225) !important;
     }
 
     .nav-link:hover {
