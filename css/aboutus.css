@@ -3,6 +3,7 @@
         font-family: 'DynaPuff', cursive !important;
     }
     
+    /* ====================================================================== */
     /* Navigation Bar */
 
     .navbar-brand {
@@ -34,6 +35,8 @@
         font-size: xx-large !important;
         color: rgb(128, 128, 225) !important;
     }
+    
+/* ====================================================================== */
     /* About Us Section */
 
 
