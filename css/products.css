@@ -40,7 +40,7 @@
     font-family: 'DynaPuff', cursive;
     font-weight: 1000;
     font-size: xx-large !important;
-    color: black;
+    color: darkblue !important;
     margin-left: 3%;
 
 }
@@ -51,7 +51,8 @@
 
 .list-group {
  margin: 0% 7%;
-
+ color: darkblue !important;
+ font-family: 'DynaPuff', cursive;
 }
 
 .list-group-item {
@@ -60,6 +61,8 @@
 
 #filter {
     width: 90%;
+    color: darkblue !important;
+    font-family: 'DynaPuff', cursive;
 }
 
 /* ====================================================================== */
@@ -69,7 +72,7 @@
     font-family: 'DynaPuff', cursive;
     font-weight: 1000;
     font-size: xx-large !important;
-    color: black;
+    color: darkblue !important;
     margin-left: 3%;
 
 }
@@ -89,6 +92,8 @@
 
 .card {
     transition: all 0.4s;
+    font-family: 'DynaPuff', cursive;
+    color: darkblue !important;
 }
 
 
